@@ -34,7 +34,7 @@ do
             sleep 3
         else
             echo -e "Region: ${region} Done, monitoring..."
-            sleep 80000
+            sleep 3600
         fi
 
     elif  [[ "$result" == "000" ]];then
